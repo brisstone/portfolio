@@ -62,11 +62,12 @@ const Contact = () => {
             freelancing if the right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input className="form-input" style={{backgroundColor:  "white"}} type="text" placeholder="Name" name="user_name" />
-           <p> <input style={{backgroundColor:  "white"}} type="text" placeholder="Subject" name="user_subject" />  </p>
-            <input style={{backgroundColor:  "white"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: "white", borderBottom: "1px solid black"}} rows={num} placeholder="Message" name="message" />
-            <button>Submit</button>
+            <input className="form-input" style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Name" name="user_name" />
+           <p> <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Subject" name="user_subject" />  </p>
+            <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black"}} rows={num} placeholder="Message" name="message" />
+            <button className="margin-top flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+            >Submit</button>
             <div>
               {done && "Thank you... I'll get back!"}
             </div>
