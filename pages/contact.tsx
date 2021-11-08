@@ -63,9 +63,9 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input className="form-input" style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Name" name="user_name" />
-           <p> <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Subject" name="user_subject" />  </p>
-            <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black"}} rows={num} placeholder="Message" name="message" />
+           <p> <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Subject" name="user_subject" required/>   </p>
+            <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Email" name="user_email" required/>
+            <textarea style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black"}} rows={num} placeholder="Message" name="message" required />
             <button className="collor px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500"
             >Submit</button>
             <div>
