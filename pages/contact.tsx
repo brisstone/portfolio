@@ -66,7 +66,7 @@ const Contact = () => {
            <p> <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Subject" name="user_subject" required/>   </p>
             <input style={{backgroundColor:  "white", color: "black"}} type="text" placeholder="Email" name="user_email" required/>
             <textarea style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black"}} rows={num} placeholder="Message" name="message" required />
-            <button className="collor px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500"
+            <button className="collor px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-white-500"
             >Submit</button>
             <div>
               {done && "Thank you... I'll get back!"}
