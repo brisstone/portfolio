@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I build beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b> Vue.js </b>,  <b>jQuery</b>, <b>React.js</b> & <b>Next.js</b>  ",
+      "I build beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b> Vue.js </b>,  <b>jQuery</b>, <b>React.js</b> & <b>Next.js</b>.  ",
   },
   {
     Icon: FaServer,
@@ -76,7 +76,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Next",
-    level: "60",
+    level: "65",
   },
   {
     Icon: BsCircleFill,
@@ -96,7 +96,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "React-Native",
-    level: "65",
+    level: "60",
   },
 ];
 
