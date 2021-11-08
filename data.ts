@@ -70,6 +70,16 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Vue",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Next",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Django",
     level: "60",
   },
