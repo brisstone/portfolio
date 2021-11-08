@@ -43,7 +43,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">FEMTECH Information Technology, Ilorin (2019-2020)</p>
             <p className="my-3">
-            Installation and repairs of solar systems
+             <p> Installation and repairs of solar systems</p> 
               Supported the IT team in the hardware and software systems maintenance.
             </p>
           </div>
