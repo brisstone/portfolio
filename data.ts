@@ -17,7 +17,7 @@ export const services: Service[] = [
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "I write server side scripts using <b>NodeJs</b>, <b>FastApi (Python)</b>   & <b>Django</b> and database using MongoDB, MYSQL, AWS",
+      "I write server side scripts using <b>NodeJs</b>, <b>FastApi (Python)</b>   & <b>Django</b> and database using <b> MongoDB </b>,<b> MYSQL</b> , & <b> AWS </b>. ",
   },
   {
     Icon: AiOutlineApi,
@@ -102,6 +102,11 @@ export const languages: Skill[] = [
     Icon: BsCircleFill,
     name: "React-Native",
     level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Flutter",
+    level: "50",
   },
 ];
 
