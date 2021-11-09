@@ -206,6 +206,36 @@ export const projects: IProject[] = [
       "JS :) | Social Media App",
     key_techs: ["API", "Node js", "React js"],
   },
+  {
+    name: "React sidecart",
+    image_path: "/images/color.jpg",
+    deployed_url: "https://react-side-cart.herokuapp.com/",
+    github_url: "https://github.com/brisstone/React-Shop-Side-Cart-currencyApi",
+    category: ["React"],
+    description:
+      "JS :) | A simple shopping side cart",
+    key_techs: ["GrapQL API", "React js"],
+  },
+  {
+    name: "React Website",
+    image_path: "/images/color.jpg",
+    deployed_url: "https://material-ui-react-app.herokuapp.com/",
+    github_url: "https://github.com/brisstone/material-ui-react-website",
+    category: ["React"],
+    description:
+      "JS :) | A complete website design",
+    key_techs: ["Material UI", "React js"],
+  },
+  {
+    name: "My Portfolio",
+    image_path: "/images/color.jpg",
+    deployed_url: "https://johnson-portfl.herokuapp.com/",
+    github_url: "!#",
+    category: ["React"],
+    description:
+      "JS :) | My personal portfolio",
+    key_techs: ["Next js", "React js", "Tailwind CSS"],
+  },
  
   {
     name: "Crypto Dashboard using React.js",
@@ -253,7 +283,10 @@ export const projects: IProject[] = [
         "Express",
         "Mongo",
         "REST API",
-        "Bootstrap",],
+        "Bootstrap",
+      "Stripe", 
+      "Paypal"]
+      
   },
   {
     name: "Nextflix Redesign",
