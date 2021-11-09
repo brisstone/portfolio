@@ -218,7 +218,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/brisstone/React-Shop-Side-Cart-currencyApi",
     category: ["React"],
     description:
-      "JS :) | A simple shopping side cart",
+      "JS :) | A simple shopping side cart with real-time currency price update",
     key_techs: ["GrapQL API", "React js"],
   },
   {
