@@ -16,7 +16,14 @@ const About: NextPage = () => {
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
         I am a recent graduate of Computer Engineering, B.Tech (First class honors) from Federal University of Technology
-        Akure. I have 4+ years of experience in Web Development. 
+        Akure. I have over 4 years of experience in Web Development. 
+        <p>
+          Proficient at developing apps based on individual as well as
+					corporate specification. Rudimentary Skills in designing responsive and interactive UI/UX for
+					apps and websites. Adept at software development life-cycle including analysis, design, development, testing and documentation. Familiar with version control
+					platforms such as Git, and experienced in the creation of database for Mobile and Web applications.
+        </p>
+        
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
