@@ -50,6 +50,37 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
+    name: "HTML5",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "CSS3",
+    level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Bootstrap",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "JQUERY",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java Script",
+    level: "90",
+  },
+ 
+  {
+    Icon: BsCircleFill,
+    name: "MaterialUI",
+    level: "85",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Python",
     level: "80",
   },
@@ -58,16 +89,6 @@ export const languages: Skill[] = [
     name: "C#",
     level: "70",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Java Script",
-    level: "90",
-  },
-  // {
-  //   Icon: BsCircleFill,
-  //   name: "React Native",
-  //   level: "60",
-  // },
   {
     Icon: BsCircleFill,
     name: "React",
@@ -85,19 +106,20 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Node Js",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Django",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
+    name: "API INTEGRATION",
     level: "80",
   },
-  {
-    Icon: BsCircleFill,
-    name: "MaterialUI",
-    level: "80",
-  },
+ 
   {
     Icon: BsCircleFill,
     name: "React-Native",
@@ -130,6 +152,11 @@ export const tools: Skill[] = [
     Icon: BsCircleFill,
     name: "GraphQL",
     level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Git",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
