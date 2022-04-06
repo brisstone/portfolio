@@ -23,7 +23,7 @@ const ProjectCard: FunctionComponent<{
   const scrollUp = () => {
     console.log("joo");
     setShowDetail(false);
-    window.scroll(0, 0);
+    // window.scroll(0, 0);
   };
 
 
@@ -31,7 +31,7 @@ const ProjectCard: FunctionComponent<{
   const setCurrentProject = () => {
     console.log("joo");
     setShowDetail(true);
-    window.scroll(0, 0);
+    // window.scroll(0, 0);
   };
 
   return (
