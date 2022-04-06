@@ -19,6 +19,13 @@ const ProjectCard: FunctionComponent<{
   },
 }) => {
   const [showDetail, setShowDetail] = useState(false);
+  
+  const scrollUp = () => {
+   
+    setShowDetail(false);
+     window.scroll(0, 0);
+    
+  }
 
   return (
     <div>
@@ -79,7 +86,7 @@ const ProjectCard: FunctionComponent<{
           </div>
 
           <button
-            onClick={() => setShowDetail(false)}
+            onClick={scrollUp}
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
           >
             <MdClose size={30} />
