@@ -32,8 +32,8 @@ const Sidebar = () => {
 
       <div className="i-title">
       <div className="i-title-wrapper">
-              <div className="i-title-item">Software Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
+              <div className="i-title-item">Full Stack Software Developer</div>
+             
               <div className="i-title-item">Researcher</div>
               <div className="i-title-item">Data Scientist</div>
               <div className="i-title-item">Content Creator</div>
@@ -41,7 +41,7 @@ const Sidebar = () => {
       </div>
       {/* Resume */}
       <a
-        href="/assets/Resume Johnson.pdf"
+        href="/Resume Johnson.pdf"
         download="Resume Johnson.pdf"
         className="margin-top flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
