@@ -19,13 +19,20 @@ const ProjectCard: FunctionComponent<{
   },
 }) => {
   const [showDetail, setShowDetail] = useState(false);
-  
+
   const scrollUp = () => {
-   
+    console.log("joo");
     setShowDetail(false);
-     window.scroll(0, 0);
-    
-  }
+    window.scroll(0, 0);
+  };
+
+
+
+  const setCurrentProject = () => {
+    console.log("joo");
+    setShowDetail(true);
+    window.scroll(0, 0);
+  };
 
   return (
     <div>
@@ -33,13 +40,18 @@ const ProjectCard: FunctionComponent<{
         src={image_path}
         alt={name}
         className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
+        onClick={setCurrentProject}
         layout="responsive"
         height="150"
         width="300"
       />
-    
-      <p className="my-2 text-center">{name}</p>
+
+      <p
+        className="my-2 text-center cursor-pointer"
+        onClick={setCurrentProject}
+      >
+        {name}
+      </p>
 
       {showDetail && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
