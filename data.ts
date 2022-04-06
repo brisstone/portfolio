@@ -360,6 +360,16 @@ export const projects: IProject[] = [
       "-- :) | RESPONSIVE WEBPAGE",
     key_techs: ["HTML", "CSS"],
   },
+    {
+    name: "Smart Contract Solidity React",
+    image_path: "/images/color.jpg",
+    deployed_url: "https://624dd94456d999008bc6120f--blockchain-smart.netlify.app/",
+    github_url: "https://github.com/brisstone/web3.0_blockchain",
+    category: ["React"],
+    description:
+      "-- :) | ETHEREUM SMART CONTRACT",
+    key_techs: ["TailwinsCSS", "Solidity", "BlockChain", "React", "Vite"],
+  },
   // {
   //   name: "YouTube using YouTube ",
   //   image_path: "/images/youtubeClone.png",
