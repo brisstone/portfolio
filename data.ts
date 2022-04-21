@@ -11,13 +11,13 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I build beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>, <b> Vue.js </b>,  <b>jQuery</b>, <b>React.js</b> & <b>Next.js</b>.  ",
+      "I build beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,  <b>jQuery</b>, <b>React.js</b> & <b>Next.js</b>.  ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "I write server side scripts using <b>NodeJs</b>, <b>FastApi (Python)</b>   & <b>Django</b> and database using <b> MongoDB </b>,<b> MYSQL</b> , & <b> AWS </b>. ",
+      "I write server side scripts using <b>NodeJs</b>, <b>FastApi (Python)</b>   & <b>Django</b>, and database using <b> MongoDB </b>, & <b> MYSQL</b>.",
   },
   {
     Icon: AiOutlineApi,
@@ -28,23 +28,21 @@ export const services: Service[] = [
   {
     Icon: MdDeveloperMode,
     title: "Machine Learning and Data Science Enthusiast",
-    about: "I create intelligent systems using <b>tensorflow/python</b>, which are capable of image recognition and text processing. ",
+    about:
+      "I create intelligent systems using <b>tensorflow/python</b>, which are capable of image recognition and text processing. ",
   },
   {
-     Icon: RiComputerLine,
+    Icon: RiComputerLine,
     title: "Embedded Systems Design",
     about:
       "I design IoT based embedded systems, AI robots using <b>arduino</b> and <b>PIC</b> microcontrollers. ",
   },
   {
-    
     Icon: AiOutlineAntDesign,
     title: "Content Writing",
     about:
       "I create rich and good contents for different fields like blockchain, education, & marketing.",
   },
-
-
 ];
 
 export const languages: Skill[] = [
