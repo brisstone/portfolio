@@ -25,6 +25,7 @@ export const services: Service[] = [
     about:
       "I develop REST API and GraphQL API using <b>django-rest-api</b>  & <b>Node API</b>. ",
   },
+  
   {
     Icon: MdDeveloperMode,
     title: "Machine Learning and Data Science Enthusiast",
