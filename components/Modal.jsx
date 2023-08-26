@@ -18,7 +18,7 @@ export default function Modal({
   const cancelButtonRef = useRef(null);
 
   return (
-    <div style={{ border: "2px solid red" }}>
+    <div style={{ border: "2px solid purple" }}>
       <Transition.Root show={open} as={Fragment}>
         <Dialog
           as="div"
@@ -55,7 +55,7 @@ export default function Modal({
                     style={{
                       //   padding: "30px",
                       height: "60vh",
-                      //   width: "50%",
+                        width: "100vw",
                     }}
                   >
                     <div
