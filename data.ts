@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I specialize in creating captivating and scalable Single Page Applications (SPAs) through the artful use of <b>HTML</b>, <b>CSS</b>, <b>jQuery</b>, <b>React.js</b>, and <b>Next.js</b>.",
+      "I specialize in creating captivating and scalable Single Page Applications (SPAs) through the artful use of <b>HTML</b>, <b>CSS</b>, <b>jQuery</b>, <b>React.js</b>, <b>Vue.js</b>, and <b>Next.js</b>.",
   },
   {
     Icon: FaServer,
