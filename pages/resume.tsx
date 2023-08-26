@@ -8,7 +8,7 @@ const Resume = () => {
         {/* //! Education & Experience */}
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h5 className="my-3 text-2xl font-bold">Education</h5>
+            <h5 className="my-3 text-2xl font-bold text-green">Education</h5>
             <div className="">
               <h5 className="my-2 text-xl font-bold">Computer Engineering</h5>
               <p className="font-semibold">
@@ -18,7 +18,7 @@ const Resume = () => {
             </div>
           </div>
           <div>
-            <h5 className="my-3 text-2xl font-bold">Certification</h5>
+            <h5 className="my-3 text-2xl font-bold text-green">Certification</h5>
             <div className="">
               <h5 className="my-2 text-xl font-bold">Google Cloud Computing</h5>
               <p className="font-semibold">Google Africa Developer (2020)</p>
@@ -31,7 +31,8 @@ const Resume = () => {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h5 className="my-3 text-2xl font-bold">Experience</h5>
+            
+            <h5 className="my-3 text-2xl font-bold text-green">Experience</h5>
             <div className="">
               <h5 className="my-2 text-xl font-bold">
                 Lead Software Developer
@@ -54,7 +55,7 @@ const Resume = () => {
             </div>
           </div>
           <div>
-            <h5 className="my-3 text-2xl font-bold">Experience</h5>
+            <h5 className="my-3 text-2xl font-bold text-green">Experience</h5>
             <div className="">
               <h5 className="my-2 text-xl font-bold">
                 Node Js Full Stack Developer

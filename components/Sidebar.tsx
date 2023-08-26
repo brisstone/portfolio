@@ -24,7 +24,7 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Johnson</span> Okoli
+        <span className="text-green">Johnson</span> Okoli
       </h3>
       {/* <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Web Developer
