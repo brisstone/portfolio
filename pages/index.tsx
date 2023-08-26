@@ -14,20 +14,33 @@ const About: NextPage = () => {
 
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
-      <h6 className="my-3 text-base font-medium" style={{textAlign: "center"}}>
+      <div className="my-3 text-base font-medium" style={{textAlign: "center"}}>
         <p>
-        I am a recent graduate of Computer Engineering, B.Tech (First class honors) from Federal University of Technology
-        Akure. I have over 4 years of experience in Web Development. 
+        {/* I am a recent graduate of Computer Engineering, B.Tech (First class honors) from Federal University of Technology
+        Akure. I have over 4 years of experience in Web Development.  */}
+        I am a dedicated Full Stack Engineer with a strong academic foundation, holding a First Class Honors Bachelor's degree in Computer Engineering from the esteemed Federal University of Technology Akure. 
+        Leveraging over four years of professional experience, 
+        I excel in crafting tailored web applications, designing captivating UI/UX interfaces, 
+        and orchestrating the entire software development life cycle. 
+        Proficient in technologies such as React.js, Vue.js, Node.js, and GraphQL, 
+        I am well-versed in leading teams, collaborating on system optimization, 
+        and delivering exceptional results. With a keen eye for detail and a commitment to innovation, 
+        I consistently bring products to new heights.
         </p>
       
+      {/* <br/> */}
+      <br/>
         <p>
-          Proficient at developing apps based on individual as well as
+          {/* Proficient at developing apps based on individual as well as
 					corporate specification. Rudimentary Skills in designing responsive and interactive UI/UX for
 					apps and websites. Adept at software development life-cycle including analysis, design, development, testing and documentation. Familiar with version control
-					platforms such as Git, experienced in the creation of RESTFUL API, GraphQL API and database for Mobile and Web applications.
+					platforms such as Git, experienced in the creation of RESTFUL API, GraphQL API and database for Mobile and Web applications. */}
+          My versatility extends to both back-end and front-end development, ensuring a comprehensive understanding of each project's intricacies. 
+          I am dedicated to delivering solutions that transcend expectations, leveraging my adaptable skill set and passion for innovation. 
+          Equipped with a solid track record of leadership and collaboration, I am poised to contribute valuable expertise to any development team, driving the creation of exceptional applications.
         </p>
         
-      </h6>
+      </div>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
@@ -43,7 +56,7 @@ const About: NextPage = () => {
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
             >
-              <ServiceCard service={service} />
+              <ServiceCard service={service} /> 
             </div>
           ))}
         </div>

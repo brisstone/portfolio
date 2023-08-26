@@ -13,6 +13,7 @@ export interface Skill {
 }
 
 export interface IProject {
+  id: number;
   name: string;
   description: string;
   image_path: string;
@@ -22,4 +23,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "React" | "Node" | "Express" | "Django" | "Mongo" | "Html/Css" | "Html/Css/Js";
+export type Category = "React"  | "React.js" | "Node" | "Express" | "Django" | "Mongo" | "Html/Css" | "Html/Css/Js" | "Mobile";

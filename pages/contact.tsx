@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src="/images/address.png"  alt="" />
-              Ijegun, Lagos State
+              Mabushi, Abuja State
             </div>
           </div>
         </div>

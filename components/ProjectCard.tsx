@@ -2,7 +2,7 @@ import { FunctionComponent, useState } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { IProject } from "../types";
-
+import Modal from "../components/Modal";
 import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{
@@ -26,12 +26,18 @@ const ProjectCard: FunctionComponent<{
     // window.scroll(0, 0);
   };
 
-
-
   const setCurrentProject = () => {
     console.log("joo");
     setShowDetail(true);
     // window.scroll(0, 0);
+  };
+
+  const [open, setOpen] = useState(false);
+
+  const openDialogModal = () => {
+    // setDialogMessage(message);
+    // setDialogTitle(title);
+    setOpen(true);
   };
 
   return (
@@ -40,18 +46,27 @@ const ProjectCard: FunctionComponent<{
         src={image_path}
         alt={name}
         className="cursor-pointer"
-        onClick={setCurrentProject}
+        onClick={openDialogModal}
         layout="responsive"
         height="150"
         width="300"
       />
 
-      <p
-        className="my-2 text-center cursor-pointer"
-        onClick={setCurrentProject}
-      >
+      <p className="my-2 text-center cursor-pointer" onClick={openDialogModal}>
         {name}
       </p>
+
+      <Modal
+        open={open}
+        setOpen={setOpen}
+        title={name}
+        action={() => {}}
+        image_path={image_path}
+        description={description}
+        key_techs={key_techs}
+        github_url={github_url}
+        deployed_url={deployed_url}
+      />
 
       {showDetail && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
