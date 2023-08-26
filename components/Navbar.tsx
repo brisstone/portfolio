@@ -1,8 +1,7 @@
 import { useState, useEffect, FunctionComponent } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-// import Contact from '../pages/contact'
-// import Contact from '../pages/contact/Contact.jsx'
+
 
 const NavItem: FunctionComponent<{
    active: string
