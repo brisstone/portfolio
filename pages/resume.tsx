@@ -55,7 +55,7 @@ const Resume = () => {
             </div>
           </div>
           <div>
-            {/* <h5 className="my-3 text-2xl font-bold text-green">Experience</h5> */}
+            <h5 className="my-3 text-2xl font-bold text-green">{" "}</h5>
             <div className="">
               <h5 className="my-2 text-xl font-bold">
                 Node Js Full Stack Developer
