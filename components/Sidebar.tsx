@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -26,9 +26,6 @@ const Sidebar = () => {
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Johnson</span> Okoli
       </h3>
-      {/* <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Web Developer
-      </p> */}
 
       <div className="i-title">
       <div className="i-title-wrapper">
@@ -51,9 +48,6 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        {/* <a href="https://www.github.com/brisstone">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
-        </a> */}
         <a href="https://www.linkedin.com/m/in/johnson-okoli-989935155" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
@@ -68,9 +62,9 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center ">
-          <GoLocation className="mr-2" /> <span>Abuja, Nigeria </span>
+          <GoLocation className="mr-2" /> <span>UK</span>
         </div>
-        <p className="my-2 "> okolijohnson69@gmail.com </p>
+        <p className="my-2 ">okolijohnson69@gmail.com </p>
       </div>
 
       {/* Email Button */}
